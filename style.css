@@ -1,9 +1,13 @@
 :root {
-	--bg: #ab4967;
+	--darkfont: #ab4967;
 	--darkgreen: #0c1713;
-	--lightbg: #a04668;
-	--darkfont: #bc8da0;
+	--bg: #a04668;
+	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
 	--headingfont: 'Belleza', sans-serif;
 	--paragraphfont: 'Roboto', sans-serif;
+}
+
+#score-background {
+	background-image: linear-gradient(to left, var(--lightbg), var(--bg));
 }
