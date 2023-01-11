@@ -1,19 +1,9 @@
 :root {
-	--tuscanred: #764248;
-	--tiffanyblue: #00BFB2;
-	--mediumchampagne: #E1D89F;
-	--black: #00171F;
-	--tuftsblue: #3C91E6;
+	--bg: #ab4967;
+	--darkgreen: #0c1713;
+	--lightbg: #a04668;
+	--darkfont: #bc8da0;
+	--lightfont: #d9d0de;
 	--headingfont: 'Belleza', sans-serif;
 	--paragraphfont: 'Roboto', sans-serif;
 }
-
-body {
-	background-color: var(--mediumchampagne);
-	font-family:var(--paragraphfont);
-}
-
-h2 {
-	font-family: var(--headingfont);
-}
-
