@@ -4,16 +4,16 @@
 	--mediumchampagne: #E1D89F;
 	--black: #00171F;
 	--tuftsblue: #3C91E6;
-	--font-family: 'Belleza', sans-serif;
-	--font-family: 'Roboto', sans-serif;
+	--headingfont: 'Belleza', sans-serif;
+	--paragraphfont: 'Roboto', sans-serif;
 }
 
 body {
-	background-color: #E1D89F;
-	font-family:'Belleza', sans-serif;
+	background-color: var(--mediumchampagne);
+	font-family:var(--paragraphfont);
 }
 
 h2 {
-	font-family: 'Belleza', sans-serif;
+	font-family: var(--headingfont);
 }
 
