@@ -17,10 +17,6 @@ All team members register on [codewars.com](https://www.codewars.com) and will p
   - Page for each team member showing his total score and a table with all the katas finished incl. their kyu rank.
   - Page for the whole team with its final score
 
-  libary
-  Aufteilung
-  Codewars - wieviel Katas
-
 ### Task2
 
 - Finish as many katas as possible
