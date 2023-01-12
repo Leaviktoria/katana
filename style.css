@@ -10,13 +10,13 @@
 
 #score-background {
 	background-image: linear-gradient(to right, var(--lightbg), var(--bg));
-	height: 200vh;
+	height: 250vh;
 	display: flex;
 	flex-wrap: wrap;
 }
 
 .score-header {
-	border: #d9d0de solid 1px;
+	border-bottom: var(--bg) solid 2px;
 	width: 100%;
 	padding: 0;
 	height: 5%;
@@ -24,26 +24,25 @@
 }
 
 .team-profiles {
-	border: #0c1713 solid 1px;
 	width: 100%;
 	height: 95%;
-	padding: 0;
+	padding-top: 1rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .profile {
-	border: goldenrod solid 1px;
 	width: 80%;
 	height: 60vh;
+	padding: 2rem;
+	box-shadow: 1.5rem 1rem 1rem var(--darkgreen);
 }
 
 .profile-top {
-	border: red solid 1px;
 	height: 60%;
 	display: flex;
-	padding: 0;
+	padding: 0.5rem;
 	color: white;
 }
 
@@ -53,6 +52,7 @@
 }
 
 #introductory-text {
+	width: 80%;
 	padding: 0;
 	font-family: var(--paragraphfont);
 	font-size: 1.2rem;
@@ -69,25 +69,44 @@
 	border-radius: 300px;
 	min-height: 200px;
 	border: var(--darkgreen) solid 4px;
+	margin-bottom: 1rem;
 }
 
 .profile-bottom {
-	border: darkcyan solid 1px;
-	height: 40%;
+	height: 30%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 15%;
+	gap: 10%;
 	font-size: 2rem;
 	color: white;
+	padding-top: 2%;
 	padding-left: 2%;
 	padding-right: 2%;
+}
+
+.completed-katas,
+.kata-kyu,
+.kata-language {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 4rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.completed-katas,
+.kata-language {
+	gap: 1rem;
+}
+
+.description {
+	font-size: 1rem;
 }
 
 #kata-table,
 #kata-rows,
 #kata-rows > * {
-	height: 80%;
 	border: var(--darkfont) 2px solid;
 	background-color: var(--lightbg);
 	font-size: 1rem;
