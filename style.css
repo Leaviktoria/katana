@@ -116,12 +116,14 @@
 	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
+	width: 100vh;
+	
  }
 
 #no-time-pic {
-	float: right
-	height: 200px;
+	float: right;
 	width: 200px;
+	height: 200px;
 }
 
 #learnings {
@@ -135,8 +137,6 @@
 	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
-	align-content: space-between;
-
 }
 
 #learned-lessons-pic {
