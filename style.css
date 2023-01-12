@@ -4,23 +4,44 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: "Belleza", sans-serif;
-	--paragraphfont: "Roboto", sans-serif;
+	--headingfont: 'Belleza', sans-serif;
+	--paragraphfont: 'Roboto', sans-serif;
 }
 
 #score-background {
+	width: 100vw;
 	background-image: linear-gradient(to right, var(--lightbg), var(--bg));
 	height: 250vh;
 	display: flex;
 	flex-wrap: wrap;
 }
 
+#header-image {
+	height: 100%;
+	min-width: 8%;
+}
+
 .score-header {
-	border-bottom: var(--bg) solid 2px;
+	box-shadow: 1rem 0.5rem 0.5rem var(--bg);
 	width: 100%;
 	padding: 0;
 	height: 5%;
-	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	font-family: var(--headingfont);
+	color: white;
+	font-size: 2rem;
+	align-items: center;
+}
+
+#cheat {
+	border-radius: 10px;
+	border-color: var(--lightfont);
+	height: 50%;
+	width: 10%;
+	background-color: var(--lightbg);
+	color: white;
+	font-family: var(--headingfont);
 }
 
 .team-profiles {
@@ -44,6 +65,7 @@
 	display: flex;
 	padding: 0.5rem;
 	color: white;
+	padding-left: 4rem;
 }
 
 .profile-text {
@@ -56,6 +78,7 @@
 	padding: 0;
 	font-family: var(--paragraphfont);
 	font-size: 1.2rem;
+	padding-top: 2rem;
 }
 
 #player-name {
@@ -102,6 +125,7 @@
 
 .description {
 	font-size: 1rem;
+	font-family: var(--paragraphfont);
 }
 
 #kata-table,
@@ -123,7 +147,7 @@
 }
 
 #sliderPage1 {
-	background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
+	background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png');
 	background-repeat: no-repeat, no-repeat;
 	background-size: cover;
 	font-family: var(--paragraphfont);
