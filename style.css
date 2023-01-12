@@ -4,8 +4,8 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: 'Belleza', sans-serif;
-	--paragraphfont: 'Roboto', sans-serif;
+	--headingfont: "Belleza", sans-serif;
+	--paragraphfont: "Roboto", sans-serif;
 }
 
 #score-background {
@@ -184,20 +184,16 @@
 	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
-<<<<<<< HEAD
 	width: 100vh;
-	
- }
+}
 
 #no-time-pic {
 	float: right;
-=======
 }
 
 #no-time-pic {
 	float: right;
 	height: 200px;
->>>>>>> 1f2938f2152250cee4febe8b35cdf40089737cd6
 	width: 200px;
 	height: 200px;
 }
@@ -213,10 +209,7 @@
 	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
-<<<<<<< HEAD
-=======
 	align-content: space-between;
->>>>>>> 1f2938f2152250cee4febe8b35cdf40089737cd6
 }
 
 #learned-lessons-pic {
@@ -231,4 +224,15 @@
 
 #page4 {
 	height: 100vh;
+}
+
+#mainPageSection {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttonClassMain {
+	font-size: 22px;
+	width: 33.33%;
+	height: 25em;
 }
