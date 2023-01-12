@@ -4,8 +4,8 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: 'Belleza', sans-serif;
-	--paragraphfont: 'Roboto', sans-serif;
+	--headingfont: "Belleza", sans-serif;
+	--paragraphfont: "Roboto", sans-serif;
 }
 
 #score-background {
@@ -73,4 +73,27 @@
 .profile-bottom {
 	border: darkcyan solid 1px;
 	height: 40%;
+}
+
+#sliderPage1 h1 {
+	font-family: var(--headingfont);
+}
+
+#sliderPage1 {
+	font-family: var(--paragraphfont);
+	margin: auto;
+	width: 90%;
+	height: 50vh;
+	border: 3px solid green;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+#weekSummary h1 {
+	font-family: var(--headingfont);
+}
+
+#weekSummary {
+	font-family: var(--paragraphfont);
 }
