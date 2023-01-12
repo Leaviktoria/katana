@@ -4,8 +4,8 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: 'Belleza', sans-serif;
-	--paragraphfont: 'Roboto', sans-serif;
+	--headingfont: "Belleza", sans-serif;
+	--paragraphfont: "Roboto", sans-serif;
 }
 
 #score-background {
@@ -68,7 +68,7 @@
 	object-fit: cover;
 	border-radius: 300px;
 	min-height: 200px;
-	border: #0c1713 solid 4px;
+	border: var(--darkgreen) solid 4px;
 }
 
 .profile-bottom {
@@ -77,35 +77,103 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 20%;
+	gap: 15%;
 	font-size: 2rem;
 	color: white;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
-#kata-table {
+#kata-table,
+#kata-rows,
+#kata-rows > * {
+	height: 80%;
+	border: var(--darkfont) 2px solid;
+	background-color: var(--lightbg);
+	font-size: 1rem;
+	padding: 0.4rem;
+	font-family: var(--paragraphfont);
 }
 
 #sliderPage1 h1 {
 	font-family: var(--headingfont);
+	color: white;
+	font-size: 30 px;
+	padding-left: 3%;
+	text-shadow: 0 0 5px black;
 }
 
 #sliderPage1 {
+	background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
+	background-repeat: no-repeat, no-repeat;
+	background-size: cover;
 	font-family: var(--paragraphfont);
+
+	font-size: 22px;
+	text-align: justify;
 	margin: auto;
-	width: 90%;
+	width: 98.5%;
 	height: 50vh;
-	border: 3px solid green;
-	padding: 10px;
+
+	padding: 10px 10px 100px 10px;
 	display: flex;
 	align-items: center;
 }
 
+#intro span {
+	background-color: antiquewhite;
+}
 #weekSummary h1 {
 	font-family: var(--headingfont);
 }
 
 #weekSummary {
 	font-family: var(--paragraphfont);
+	color: #0c1713;
+	font-size: 20px;
+	height: 50vh;
+	align-items: center;
+	margin-left: 5%;
+	width: 98.5%;
+	height: 50vh;
+}
+
+#secHalf {
+	background-color: #bc8da0;
+	margin-top: -5%;
+	padding-top: 5%;
+	padding-right: 5%;
+}
+
+#intro {
+	padding: 10%;
+}
+
+#logoPage1 {
+	margin-left: 3%;
+}
+
+#quote {
+	font-size: 20px;
+	font-style: italic;
+	float: right;
+	padding-top: 8%;
+	padding-right: 10%;
+}
+
+#linkBack {
+	font-size: 15px;
+	padding-top: 10%;
+}
+
+#headerPage1 {
+	border-bottom: 4px solid black;
+	position: -webkit-sticky; /* Safari */
+	position: sticky;
+	top: 0;
+	width: 100%;
+
+	background-color: whitesmoke;
 }
 
 #difficulties-lessons {
@@ -126,7 +194,13 @@
 	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
+	width: 100vh;
+}
 	
+}
+
+#no-time-pic {
+	float: right;
 }
 
 #no-time-pic {
@@ -171,4 +245,26 @@
 	margin: auto;
 	border: #ab4967 10px;
 	justify-content: space-between;
+}
+
+#mainPageSection {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttonClassMain {
+	font-size: 22px;
+	width: 33.33%;
+	height: 25em;
+}
+
+#mainPageSection {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttonClassMain {
+	font-size: 22px;
+	width: 33.33%;
+	height: 25em;
 }
