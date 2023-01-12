@@ -4,10 +4,18 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: 'Belleza', sans-serif;
-	--paragraphfont: 'Roboto', sans-serif;
+	--headingfont: "Belleza", sans-serif;
+	--paragraphfont: "Roboto", sans-serif;
 }
 
 #score-background {
 	background-image: linear-gradient(to left, var(--lightbg), var(--bg));
+}
+
+#sliderPage1 h1 {
+	font-family: Belleza;
+}
+
+#weekSummary h1 {
+	font-family: Belleza;
 }
