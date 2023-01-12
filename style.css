@@ -68,7 +68,7 @@
 	object-fit: cover;
 	border-radius: 300px;
 	min-height: 200px;
-	border: #0c1713 solid 4px;
+	border: var(--darkgreen) solid 4px;
 }
 
 .profile-bottom {
@@ -77,12 +77,22 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 20%;
+	gap: 15%;
 	font-size: 2rem;
 	color: white;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
-#kata-table {
+#kata-table,
+#kata-rows,
+#kata-rows > * {
+	height: 80%;
+	border: var(--darkfont) 2px solid;
+	background-color: var(--lightbg);
+	font-size: 1rem;
+	padding: 0.4rem;
+	font-family: var(--paragraphfont);
 }
 
 #sliderPage1 h1 {
