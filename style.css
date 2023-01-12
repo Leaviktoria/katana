@@ -1,11 +1,100 @@
 :root {
-	--bg: #ab4967;
+	--darkfont: #ab4967;
 	--darkgreen: #0c1713;
-	--lightbg: #a04668;
-	--darkfont: #bc8da0;
+	--bg: #a04668;
+	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: 'Belleza', sans-serif;
-	--paragraphfont: 'Roboto', sans-serif;
+	--headingfont: "Belleza", sans-serif;
+	--paragraphfont: "Roboto", sans-serif;
+}
+
+#score-background {
+	background-image: linear-gradient(to right, var(--lightbg), var(--bg));
+	height: 200vh;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.score-header {
+	border: #d9d0de solid 1px;
+	width: 100%;
+	padding: 0;
+	height: 5%;
+	margin-top: 1rem;
+}
+
+.team-profiles {
+	border: #0c1713 solid 1px;
+	width: 100%;
+	height: 95%;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.profile {
+	border: goldenrod solid 1px;
+	width: 80%;
+	height: 60vh;
+}
+
+.profile-top {
+	border: red solid 1px;
+	height: 60%;
+	display: flex;
+	padding: 0;
+	color: white;
+}
+
+.profile-text {
+	padding: 0;
+	width: 60%;
+}
+
+#introductory-text {
+	padding: 0;
+	font-family: var(--paragraphfont);
+	font-size: 1.2rem;
+}
+
+#player-name {
+	font-family: var(--headingfont);
+	font-size: 3.5rem;
+}
+
+#profile-image {
+	width: 40%;
+	object-fit: cover;
+	border-radius: 250px;
+}
+
+.profile-bottom {
+	border: darkcyan solid 1px;
+	height: 40%;
+}
+
+#sliderPage1 h1 {
+	font-family: var(--headingfont);
+}
+
+#sliderPage1 {
+	font-family: var(--paragraphfont);
+	margin: auto;
+	width: 90%;
+	height: 50vh;
+	border: 3px solid green;
+	padding: 10px;
+	display: flex;
+	align-items: center;
+}
+
+#weekSummary h1 {
+	font-family: var(--headingfont);
+}
+
+#weekSummary {
+	font-family: var(--paragraphfont);
 }
 
 h2 {
