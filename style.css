@@ -116,22 +116,26 @@
 }
 
 #struggles {
+	font-family: var(--headingfont);
 	color: var(--bg);
 	display: flex;
 	justify-content: center;
 }
 
 #difficulties {
+	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
 }
 
 #no-time-pic {
+	float: right;
 	height: 200px;
 	width: 200px;
 }
 
 #learnings {
+	font-family: var(--headingfont);
 	color: var(--bg);
 	display: flex;
 	justify-content: center;
@@ -151,8 +155,9 @@
 }
 
 #page3 {
-	min-height: 100%;
+	height: 100vh;
 }
 
 #page4 {
+	height: 100vh;
 }
