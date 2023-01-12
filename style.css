@@ -54,9 +54,13 @@
 
 #introductory-text {
 	padding: 0;
+	font-family: var(--paragraphfont);
+	font-size: 1.2rem;
 }
 
 #player-name {
+	font-family: var(--headingfont);
+	font-size: 3.5rem;
 }
 
 #profile-image {
