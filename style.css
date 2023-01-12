@@ -98,10 +98,6 @@
 	font-family: var(--paragraphfont);
 }
 
-h2 {
-	font-family: var(--headingfont);
-}
-
 #difficulties-lessons {
 	height: 200vh;
 	display: flex;
@@ -110,6 +106,7 @@ h2 {
 }
 
 #struggles {
+	font-family: var(--headingfont);
 	color: var(--bg);
 	display: flex;
 	justify-content: center;
@@ -128,6 +125,7 @@ h2 {
 }
 
 #learnings {
+	font-family: var(--headingfont);
 	color: var(--bg);
 	display: flex;
 	justify-content: center;
