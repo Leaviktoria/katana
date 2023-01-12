@@ -4,8 +4,8 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: "Belleza", sans-serif;
-	--paragraphfont: "Roboto", sans-serif;
+	--headingfont: 'Belleza', sans-serif;
+	--paragraphfont: 'Roboto', sans-serif;
 }
 
 #score-background {
@@ -64,14 +64,25 @@
 }
 
 #profile-image {
-	width: 40%;
+	min-width: 250px;
 	object-fit: cover;
-	border-radius: 250px;
+	border-radius: 300px;
+	min-height: 200px;
+	border: #0c1713 solid 4px;
 }
 
 .profile-bottom {
 	border: darkcyan solid 1px;
 	height: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20%;
+	font-size: 2rem;
+	color: white;
+}
+
+#kata-table {
 }
 
 #sliderPage1 h1 {
@@ -153,4 +164,71 @@
 	width: 100%;
 
 	background-color: whitesmoke;
+}
+
+#difficulties-lessons {
+	height: 200vh;
+	display: flex;
+	background-color: var(--lightfont);
+	flex-direction: column;
+}
+
+#struggles {
+	font-family: var(--headingfont);
+	color: var(--bg);
+	display: flex;
+	justify-content: center;
+}
+
+#difficulties {
+	display: flex;
+	font-family: var(--paragraphfont);
+	color: var(--darkgreen);
+<<<<<<< HEAD
+	width: 100vh;
+	
+ }
+
+#no-time-pic {
+	float: right;
+=======
+}
+
+#no-time-pic {
+	float: right;
+	height: 200px;
+>>>>>>> 1f2938f2152250cee4febe8b35cdf40089737cd6
+	width: 200px;
+	height: 200px;
+}
+
+#learnings {
+	font-family: var(--headingfont);
+	color: var(--bg);
+	display: flex;
+	justify-content: center;
+}
+
+#lessons {
+	display: flex;
+	font-family: var(--paragraphfont);
+	color: var(--darkgreen);
+<<<<<<< HEAD
+=======
+	align-content: space-between;
+>>>>>>> 1f2938f2152250cee4febe8b35cdf40089737cd6
+}
+
+#learned-lessons-pic {
+	float: right;
+	height: 200px;
+	width: 200px;
+}
+
+#page3 {
+	height: 100vh;
+}
+
+#page4 {
+	height: 100vh;
 }
