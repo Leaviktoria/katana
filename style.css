@@ -7,3 +7,59 @@
 	--headingfont: 'Belleza', sans-serif;
 	--paragraphfont: 'Roboto', sans-serif;
 }
+
+h2 {
+	font-family: var(--headingfont);
+}
+
+#difficulties-lessons {
+	height: 200vh;
+	display: flex;
+	background-color: var(--lightfont);	
+	flex-direction: column;
+}
+
+#struggles {
+	color: var(--bg);
+	display: flex;
+	justify-content: center;
+}
+
+ #difficulties {
+	font-family: var(--paragraphfont);
+	color: var(--darkgreen);
+ }
+
+#no-time-pic {
+	height: 200px;
+	width: 200px;
+}
+
+#learnings {
+	color: var(--bg);
+	display: flex;
+	justify-content: center;
+}
+
+#lessons {
+	display: flex;
+	font-family: var(--paragraphfont);
+	color: var(--darkgreen);
+	align-content: space-between;
+
+}
+
+#learned-lessons-pic {
+	float: right;
+	height: 200px;
+	width: 200px;
+}
+
+#page3 {
+	min-height: 100%;
+
+}
+
+#page4 {
+
+}

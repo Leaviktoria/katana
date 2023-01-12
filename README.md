@@ -9,12 +9,17 @@ All team members register on [codewars.com](https://www.codewars.com) and will p
 ### Task1
 
 - Prepare a visually attractive HTML/CSS presentation for the Friday - demo day. Make sure to include at lest the following:
+
   - Intro of the team
   - Plan for the week
   - Difficulties encountered while battling through the katas
   - Lessons learned
   - Page for each team member showing his total score and a table with all the katas finished incl. their kyu rank.
   - Page for the whole team with its final score
+
+  libary
+  Aufteilung
+  Codewars - wieviel Katas
 
 ### Task2
 
