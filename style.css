@@ -4,47 +4,68 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: "Belleza", sans-serif;
-	--paragraphfont: "Roboto", sans-serif;
+	--headingfont: 'Belleza', sans-serif;
+	--paragraphfont: 'Roboto', sans-serif;
 }
 
 #score-background {
+	width: 100vw;
 	background-image: linear-gradient(to right, var(--lightbg), var(--bg));
-	height: 200vh;
+	height: 250vh;
 	display: flex;
 	flex-wrap: wrap;
 }
 
+#header-image {
+	height: 100%;
+	min-width: 8%;
+}
+
 .score-header {
-	border: #d9d0de solid 1px;
+	box-shadow: 1rem 0.5rem 0.5rem var(--bg);
 	width: 100%;
 	padding: 0;
 	height: 5%;
-	margin-top: 1rem;
+	display: flex;
+	justify-content: space-around;
+	font-family: var(--headingfont);
+	color: white;
+	font-size: 2rem;
+	align-items: center;
+}
+
+#cheat {
+	border-radius: 10px;
+	border-color: var(--lightfont);
+	height: 50%;
+	width: 10%;
+	background-color: var(--lightbg);
+	color: white;
+	font-family: var(--headingfont);
 }
 
 .team-profiles {
-	border: #0c1713 solid 1px;
 	width: 100%;
 	height: 95%;
-	padding: 0;
+	padding-top: 1rem;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 }
 
 .profile {
-	border: goldenrod solid 1px;
 	width: 80%;
 	height: 60vh;
+	padding: 2rem;
+	box-shadow: 1.5rem 1rem 1rem var(--darkgreen);
 }
 
 .profile-top {
-	border: red solid 1px;
 	height: 60%;
 	display: flex;
-	padding: 0;
+	padding: 0.5rem;
 	color: white;
+	padding-left: 4rem;
 }
 
 .profile-text {
@@ -53,9 +74,11 @@
 }
 
 #introductory-text {
+	width: 80%;
 	padding: 0;
 	font-family: var(--paragraphfont);
 	font-size: 1.2rem;
+	padding-top: 2rem;
 }
 
 #player-name {
@@ -69,25 +92,45 @@
 	border-radius: 300px;
 	min-height: 200px;
 	border: var(--darkgreen) solid 4px;
+	margin-bottom: 1rem;
 }
 
 .profile-bottom {
-	border: darkcyan solid 1px;
-	height: 40%;
+	height: 30%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 15%;
+	gap: 10%;
 	font-size: 2rem;
 	color: white;
+	padding-top: 2%;
 	padding-left: 2%;
 	padding-right: 2%;
+}
+
+.completed-katas,
+.kata-kyu,
+.kata-language {
+	display: flex;
+	flex-wrap: wrap;
+	font-size: 4rem;
+	align-items: center;
+	justify-content: center;
+}
+
+.completed-katas,
+.kata-language {
+	gap: 1rem;
+}
+
+.description {
+	font-size: 1rem;
+	font-family: var(--paragraphfont);
 }
 
 #kata-table,
 #kata-rows,
 #kata-rows > * {
-	height: 80%;
 	border: var(--darkfont) 2px solid;
 	background-color: var(--lightbg);
 	font-size: 1rem;
@@ -104,7 +147,7 @@
 }
 
 #sliderPage1 {
-	background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
+	background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png');
 	background-repeat: no-repeat, no-repeat;
 	background-size: cover;
 	font-family: var(--paragraphfont);
