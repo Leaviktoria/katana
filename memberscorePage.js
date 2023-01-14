@@ -19,6 +19,8 @@ const showVikiSnippet = () => {
 	vikiSnippet.style.width = '100%';
 	vikiSnippet.style.height = '100%';
 	vikiSnippet.style.objectFit = 'fit';
+	vikiSnippet.style.border = 'black 10px solid';
+	vikiSnippet.style.borderRadius = '20px';
 	vikiDiv.appendChild(vikiSnippet);
 };
 
@@ -34,6 +36,8 @@ const showLeaSnippet = () => {
 	leaSnippet.style.width = '100%';
 	leaSnippet.style.height = '100%';
 	leaSnippet.style.objectFit = 'fit';
+	leaSnippet.style.border = 'black 10px solid';
+	leaSnippet.style.borderRadius = '20px';
 	leaDiv.appendChild(leaSnippet);
 };
 
@@ -49,6 +53,8 @@ const showHansSnippet = () => {
 	hansSnippet.style.width = '100%';
 	hansSnippet.style.height = '100%';
 	hansSnippet.style.objectFit = 'fit';
+	hansSnippet.style.border = 'black 10px solid';
+	hansSnippet.style.borderRadius = '20px';
 	hansDiv.appendChild(hansSnippet);
 };
 
