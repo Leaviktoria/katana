@@ -239,6 +239,8 @@
 	color: var(--darkgreen);
 	width: 100vh;
 }
+	
+}
 
 #no-time-pic {
 	float: right;
@@ -246,6 +248,7 @@
 
 #no-time-pic {
 	float: right;
+	border: #a04668 1px;
 	height: 200px;
 	width: 200px;
 	height: 200px;
@@ -273,10 +276,33 @@
 
 #page3 {
 	height: 100vh;
-}
+	width: 100vh;
+	border: 15px solid var(--darkfont);
+	padding: 100px;
+	justify-content: center;
+	margin: auto;
+	margin-bottom: 80vh;
+	}
 
 #page4 {
 	height: 100vh;
+	margin: auto;
+	width: 100vh;
+	border: 15px solid var(--darkfont);
+	padding: 100px;
+	justify-content: center;
+	margin-bottom: 80vh;
+}
+
+#mainPageSection {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.buttonClassMain {
+	font-size: 22px;
+	width: 33.33%;
+	height: 25em;
 }
 
 #mainPageSection {
