@@ -89,7 +89,7 @@
 }
 
 #profile-image {
-	min-width: 250px;
+	min-width: 300px;
 	object-fit: cover;
 	border-radius: 300px;
 	min-height: 200px;
@@ -128,6 +128,8 @@
 .description {
 	font-size: 1rem;
 	font-family: var(--paragraphfont);
+	width: 100%;
+	text-align: center;
 }
 
 #kata-table,
@@ -222,10 +224,12 @@
 }
 
 #difficulties-lessons {
-	height: 200vh;
+	height: 150vh;
 	display: flex;
 	background-color: var(--lightfont);
-	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5%;
 }
 
 #struggles {
@@ -235,12 +239,15 @@
 	justify-content: center;
 }
 
-#difficulties {
+#difficulties,
+#lessons {
 	display: flex;
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
 	width: 100vh;
-	justify-content: space-between;
+	justify-content: center;
+	gap: 20%;
+	margin-top: 10%;
 }
 
 #no-time-pic {
@@ -262,11 +269,11 @@
 	justify-content: center;
 }
 
-#lessons {
+footer {
+	width: 100%;
 	display: flex;
-	font-family: var(--paragraphfont);
-	color: var(--darkgreen);
-	align-content: space-between;
+	justify-content: center;
+	height: 2vh;
 }
 
 #learned-lessons-pic {
@@ -275,24 +282,15 @@
 	width: 200px;
 }
 
-#page3 {
-	height: 100vh;
-	width: 100vh;
-	border: 15px solid var(--darkfont);
-	padding: 100px;
-	justify-content: center;
-	margin: auto;
-	margin-bottom: 80vh;
-}
-
+#page3,
 #page4 {
-	height: 80vh;
-	margin: auto;
+	height: 50vh;
 	width: 100vh;
 	border: 15px solid var(--darkfont);
-	padding: 100px;
 	justify-content: center;
-	margin-bottom: 80vh;
+	padding-top: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
 }
 
 #mainPageSection {
