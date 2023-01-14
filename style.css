@@ -4,8 +4,8 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: 'Belleza', sans-serif;
-	--paragraphfont: 'Roboto', sans-serif;
+	--headingfont: "Belleza", sans-serif;
+	--paragraphfont: "Roboto", sans-serif;
 }
 
 #score-background {
@@ -147,7 +147,7 @@
 }
 
 #sliderPage1 {
-	background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png');
+	background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
 	background-repeat: no-repeat, no-repeat;
 	background-size: cover;
 	font-family: var(--paragraphfont);
@@ -214,8 +214,7 @@
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
 	top: 0;
-	width: 100%;
-
+	width: 100vw;
 	background-color: whitesmoke;
 }
 
@@ -238,8 +237,6 @@
 	font-family: var(--paragraphfont);
 	color: var(--darkgreen);
 	width: 100vh;
-}
-	
 }
 
 #no-time-pic {
@@ -282,7 +279,7 @@
 	justify-content: center;
 	margin: auto;
 	margin-bottom: 80vh;
-	}
+}
 
 #page4 {
 	height: 100vh;
@@ -311,7 +308,31 @@
 }
 
 .buttonClassMain {
+	font-family: var(--paragraphfont);
 	font-size: 22px;
 	width: 33.33%;
-	height: 25em;
+	height: 10em;
+}
+
+#sponsors {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+#LogoCaption {
+	font-size: 25px;
+	text-align: center;
+	font-family: var(--paragraphfont);
+}
+
+#SponsoredSection h1 {
+	font-family: var(--headingfont);
+	padding: 1%;
+}
+
+#mainBody {
+	background-color: #bc8da0;
+	margin: 0;
 }
