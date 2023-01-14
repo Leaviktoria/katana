@@ -239,8 +239,6 @@
 	color: var(--darkgreen);
 	width: 100vh;
 }
-	
-}
 
 #no-time-pic {
 	float: right;
@@ -282,7 +280,7 @@
 	justify-content: center;
 	margin: auto;
 	margin-bottom: 80vh;
-	}
+}
 
 #page4 {
 	height: 100vh;
