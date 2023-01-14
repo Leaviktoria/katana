@@ -89,7 +89,7 @@
 }
 
 #profile-image {
-	min-width: 250px;
+	min-width: 300px;
 	object-fit: cover;
 	border-radius: 300px;
 	min-height: 200px;
@@ -128,6 +128,8 @@
 .description {
 	font-size: 1rem;
 	font-family: var(--paragraphfont);
+	width: 100%;
+	text-align: center;
 }
 
 #kata-table,
