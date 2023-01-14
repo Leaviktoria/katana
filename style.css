@@ -16,6 +16,7 @@
 	flex-wrap: wrap;
 }
 
+#homelink,
 #header-image {
 	height: 100%;
 	min-width: 8%;
@@ -42,6 +43,7 @@
 	background-color: var(--lightbg);
 	color: white;
 	font-family: var(--headingfont);
+	padding: 0.1rem;
 }
 
 .team-profiles {
