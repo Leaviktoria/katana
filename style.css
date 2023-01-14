@@ -4,8 +4,8 @@
 	--bg: #a04668;
 	--lightbg: #bc8da0;
 	--lightfont: #d9d0de;
-	--headingfont: "Belleza", sans-serif;
-	--paragraphfont: "Roboto", sans-serif;
+	--headingfont: 'Belleza', sans-serif;
+	--paragraphfont: 'Roboto', sans-serif;
 }
 
 #score-background {
@@ -152,7 +152,7 @@
 }
 
 #sliderPage1 {
-	background-image: url("https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png");
+	background-image: url('https://cdn.pixabay.com/photo/2012/08/27/14/19/mountains-55067__340.png');
 	background-repeat: no-repeat, no-repeat;
 	background-size: cover;
 	font-family: var(--paragraphfont);
